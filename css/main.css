@@ -1,13 +1,6 @@
-/* =================
-
-author: Karan Mhatre
-email: me@karanmhatre.com
-website: karanmhatre.com
-  
-================= */
-
 body {
   font-family: "Lato", sans-serif;
+  background: #345;
 }
 
 /* transisiton */
@@ -41,6 +34,15 @@ header nav {
   top: 0px;
   transform: translateY(0);
   opacity: 1;
+  
+}
+
+header nav a {
+  color: salmon;
+}
+
+header nav a:hover {
+  text-decoration: underline;
 }
 
 header nav ul {
@@ -146,6 +148,19 @@ footer ul li a:hover {
   opacity: 1;
   position: relative;
   z-index: 9;
+  color: pinkl
+}
+
+.green-box {
+  background: #4BEDC2;
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  right: -140px;
+  top: 230px;
+  width: 60%;
+  border-bottom: 69px solid pink;
+  outline: 5px solid yellow
 }
 
 /* Cool green stripe Styling */
